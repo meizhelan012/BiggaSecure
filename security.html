@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Security Methods | Bigga Secure</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+<script src="typewriter.js"></script>
   <nav>
     <h2>BIGGA SECURE</h2>
 
@@ -61,6 +60,22 @@
     </div>
 
   </section>
+
+
+  <section class="quiz">
+    <div class="quizNPC">
+      <h2 class="quizTime">Quiz Time!</h2>
+<image class="bigga" src="assets/Seal.png" onclick="typeWriter()">
+<p class="quizTime" id="demo"></p>
+    </div>
+
+<label class="quizQuestion" for="userAwnser">Enter your Awnser:</label>
+<input class="quizInput" type="text" id="userAwnser" placeholder="Click the Bigga!!!">
+
+<button class="quizSubmit" onclick="showOutput()">Submit</button>
+
+  <p class="quizOutput" id="outputMessage"></p>
+</section>
 
 </body>
 </html>
